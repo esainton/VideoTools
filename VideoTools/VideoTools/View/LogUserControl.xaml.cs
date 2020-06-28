@@ -1,28 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿// -----------------------------------------------------------------------
+// <copyright file="LogUserControl.xaml.cs" company="(none)">
+//   Copyright © 2020 Etienne Sainton.  All Rights Reserved.
+//   This source is subject to the MIT license.
+//   Please see license.md for more information.
+// </copyright>
+// <author>Etienne Sainton</author>
+// -----------------------------------------------------------------------
 
 namespace VideoTools.View
 {
+    using System.Windows.Controls;
+
     /// <summary>
-    /// Interaction logic for LogUserControl.xaml
+    /// Interaction logic for LogUserControl.xaml.
     /// </summary>
     public partial class LogUserControl : UserControl
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="LogUserControl"/> class.
+        /// </summary>
         public LogUserControl()
         {
-            InitializeComponent();
+            this.InitializeComponent();
         }
     }
 }

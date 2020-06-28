@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:VideoTools"
         xmlns:uc="clr-namespace:VideoTools.View"
         mc:Ignorable="d"
-        Title="Videos Toolbox" Height="450" Width="800">
+        Title="Videos Toolbox" Height="600" Width="800">
     <Grid>
-        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Margin="346,128,0,0" VerticalAlignment="Top" Width="75"/>
-        <uc:HistoryUserControl HorizontalAlignment="Left" Height="256" Margin="10,153,0,0" VerticalAlignment="Top" Width="181"/>
-        <uc:LogUserControl HorizontalAlignment="Left" Height="100" Margin="6,384,-6,-65" VerticalAlignment="Top" Width="792"/>
-        <uc:ConsoleUserControl HorizontalAlignment="Left" Height="226" Margin="196,153,0,0" VerticalAlignment="Top" Width="586"/>
+        <uc:MediaActionUserControl HorizontalAlignment="Left" Height="250" Margin="0,10,0,0" VerticalAlignment="Top" Width="800"/>
+        <uc:HistoryUserControl HorizontalAlignment="Left" Height="256" Margin="10,300,0,0" VerticalAlignment="Top" Width="181"/>
+        <uc:LogUserControl HorizontalAlignment="Left" Height="100" Margin="6,534,0,0" VerticalAlignment="Top" Width="792"/>
+        <uc:ConsoleUserControl HorizontalAlignment="Left" Height="226" Margin="196,300,0,0" VerticalAlignment="Top" Width="586"/>
     </Grid>
 </Window>

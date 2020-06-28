@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="HistoryUserControl.xaml.cs" company="(none)">
+// <copyright file="MediaActionUserControl.xaml.cs" company="(none)">
 //   Copyright © 2020 Etienne Sainton.  All Rights Reserved.
 //   This source is subject to the MIT license.
 //   Please see license.md for more information.
@@ -12,14 +12,14 @@ namespace VideoTools.View
     using System.Windows.Controls;
 
     /// <summary>
-    /// Interaction logic for HistoryUserControl.xaml.
+    /// Interaction logic for UserControl1.xaml.
     /// </summary>
-    public partial class HistoryUserControl : UserControl
+    public partial class MediaActionUserControl : UserControl
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="HistoryUserControl"/> class.
+        /// Initializes a new instance of the <see cref="MediaActionUserControl"/> class.
         /// </summary>
-        public HistoryUserControl()
+        public MediaActionUserControl()
         {
             this.InitializeComponent();
         }
